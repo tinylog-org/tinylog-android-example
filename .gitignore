@@ -1,8 +1,7 @@
 .*
 *.iml
-gradle.properties
-local.properties
 build
-gradle
 gradlew
 gradlew.bat
+gradle.properties
+local.properties
