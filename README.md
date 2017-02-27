@@ -3,11 +3,11 @@ Gradle based example application to demonstrate how to use [tinylog](https://git
 
 ## Main files
 
-* [app/build.gradle](https://github.com/pmwmedia/tinylog-android-example/blob/master/app/build.gradle)
+* [build.gradle](https://github.com/pmwmedia/tinylog-android-example/blob/master/build.gradle)
   * Dependency for tinylog 1.2
 
-* [app/src/main/resources/tinylog.properties](https://github.com/pmwmedia/tinylog-android-example/blob/master/app/src/main/resources/tinylog.properties)
+* [src/main/resources/tinylog.properties](https://github.com/pmwmedia/tinylog-android-example/blob/master/src/main/resources/tinylog.properties)
   * Configuration for tinylog
 
-* [app/src/main/java/com/example/tinylog/demo/MainActivity.java](https://github.com/pmwmedia/tinylog-android-example/blob/master/app/src/main/java/com/example/tinylog/demo/MainActivity.java)
+* [src/main/java/com/example/tinylog/demo/MainActivity.java](https://github.com/pmwmedia/tinylog-android-example/blob/master/src/main/java/com/example/tinylog/demo/MainActivity.java)
   * Example for logging with tinylog
