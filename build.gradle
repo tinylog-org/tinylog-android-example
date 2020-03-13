@@ -1,40 +1,29 @@
-apply plugin: 'com.android.application'
-
-android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-        }
-    }
-
-    lintOptions {
-        /* tinylog contains some special packages for JavaSE, which do not cause problems on Android */
-        disable "InvalidPackage"
-    }
-}
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
+    
     repositories {
+        google()
         jcenter()
+        
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.3'
+        classpath 'com.android.tools.build:gradle:3.6.1'
+        
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
     }
 }
 
-repositories {
-    jcenter()
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
 }
 
-dependencies {
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'org.tinylog:tinylog:1.2'
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }

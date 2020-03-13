@@ -4,12 +4,14 @@ Gradle based example application to demonstrate how to use [tinylog](https://git
 
 ## Main files
 
-* [build.gradle](https://github.com/pmwmedia/tinylog-android-example/blob/master/build.gradle)
-  * Lint option for tinylog
-  * Dependency for tinylog 1.2
+* [build.gradle](https://github.com/pmwmedia/tinylog-android-example/blob/v2/app/build.gradle)
+  * Dependency for tinylog 2.1.0
 
-* [src/main/resources/tinylog.properties](https://github.com/pmwmedia/tinylog-android-example/blob/master/src/main/resources/tinylog.properties)
-  * Configuration for tinylog
+* [build.gradle](https://github.com/pmwmedia/tinylog-android-example/blob/v2/app/proguard-rules.pro)
+  * ProGuard rules for tinylog 2
 
-* [src/main/java/com/example/tinylog/demo/MainActivity.java](https://github.com/pmwmedia/tinylog-android-example/blob/master/src/main/java/com/example/tinylog/demo/MainActivity.java#L12)
-  * Example for logging with tinylog
+* [src/main/resources/tinylog.properties](https://github.com/pmwmedia/tinylog-android-example/blob/v2/app/src/main/resources/tinylog.properties)
+  * Configuration for tinylog 2
+
+* [src/main/java/com/example/tinylog/demo/MainActivity.java](https://github.com/pmwmedia/tinylog-android-example/blob/v2/app/src/main/java/com/example/tinylog/demo/MainActivity.java#L12)
+  * Example for logging with tinylog 2
