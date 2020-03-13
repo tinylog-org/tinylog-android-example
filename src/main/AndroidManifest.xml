@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tinylog.demo">
 
+    <uses-sdk android:minSdkVersion="17" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,7 +17,5 @@
             </intent-filter>
         </activity>
     </application>
-
-    <uses-sdk android:minSdkVersion="9" />
 
 </manifest>

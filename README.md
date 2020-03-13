@@ -1,9 +1,11 @@
 # Using tinylog on Android
+
 Gradle based example application to demonstrate how to use [tinylog](https://github.com/pmwmedia/tinylog) as logging framework for Android apps.
 
 ## Main files
 
-* [build.gradle](https://github.com/pmwmedia/tinylog-android-example/blob/master/build.gradle#L30)
+* [build.gradle](https://github.com/pmwmedia/tinylog-android-example/blob/master/build.gradle)
+  * Lint option for tinylog
   * Dependency for tinylog 1.2
 
 * [src/main/resources/tinylog.properties](https://github.com/pmwmedia/tinylog-android-example/blob/master/src/main/resources/tinylog.properties)

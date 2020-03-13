@@ -1,18 +1,23 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
 
     compileOptions {
-        sourceCompatibility org.gradle.api.JavaVersion.VERSION_1_7
-        targetCompatibility org.gradle.api.JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
     }
 
     buildTypes {
         release {
             minifyEnabled false
         }
+    }
+
+    lintOptions {
+        /* tinylog contains some special packages for JavaSE, which do not cause problems on Android */
+        disable "InvalidPackage"
     }
 }
 
@@ -25,7 +30,11 @@ buildscript {
     }
 }
 
+repositories {
+    jcenter()
+}
+
 dependencies {
-    compile 'com.android.support:appcompat-v7:24.2.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'org.tinylog:tinylog:1.2'
 }
