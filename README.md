@@ -5,7 +5,7 @@ Gradle based example application to demonstrate how to use [tinylog](https://git
 ## Main files
 
 * [app/build.gradle](https://github.com/pmwmedia/tinylog-android-example/blob/v2/app/build.gradle)
-  * Dependency for tinylog 2.1.0
+  * Dependencies for tinylog 2 (API and implementation)
 
 * [app/proguard-rules.pro](https://github.com/pmwmedia/tinylog-android-example/blob/v2/app/proguard-rules.pro)
   * ProGuard rules for tinylog 2
